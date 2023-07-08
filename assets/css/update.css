@@ -17,6 +17,12 @@
   border-bottom: 5px ridge #2774AE;
 }
 
+.seperator {
+    height: 2px;
+    background-image: radial-gradient(#2774AE, #FFF), radial-gradient(#2774AE, #FFF);
+    background-position: 0, 100%, 0, 100%;
+}
+
 .ucla-logo {
   width: 3em;
   height: auto;
