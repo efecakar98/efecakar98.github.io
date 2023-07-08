@@ -15,7 +15,7 @@
 
 .seperator {
     height: 10px;
-    background-image: linear-gradient(to bottom, #2774AE, #FFF);
+    background-image: linear-gradient(#2774AE, #FFF);
 }
 
 .ucla-logo {
