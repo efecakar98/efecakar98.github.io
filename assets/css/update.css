@@ -13,9 +13,11 @@
   color: white;
 }
 
-.seperator1 {
-    height: 10px;
-    background-image: linear-gradient(#2774AE, #ad1717);
+.seperator {
+    height: 15px;
+    margin: 10px;
+    background-image: linear-gradient(#2774AE, #FFF);
+  
 }
 
 .ucla-logo {
