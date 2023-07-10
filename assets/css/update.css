@@ -8,15 +8,10 @@
   line-height: 1.15;
 }
 
-
 .breadcrumb-item + .breadcrumb-item::before {
   color: white;
 }
 
-.navbar {
-  --bs-navbar-brand-color: rgba(39, 116, 174, 1);
-}
-  
 .seperator {
     height: 15px;
     margin-bottom: 10px;
