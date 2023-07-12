@@ -12,6 +12,11 @@
   color: white;
 }
 
+.navbar-custom {
+  --bs-navbar-brand-color: #e61515;
+  --bs-navbar-brand-hover-color: #fff;
+}
+
 .seperator {
     height: 15px;
     margin-bottom: 10px;
