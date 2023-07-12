@@ -14,7 +14,7 @@
 
 .navbar-custom {
   --bs-navbar-brand-color: #2774AE;
-  --bs-navbar-brand-hover-color: #2747ae;
+  --bs-navbar-brand-hover-color: rgba(39, 116, 174, 0.5);
 }
 
 .seperator {
