@@ -85,3 +85,8 @@ text-decoration: none;}
 #footer-content {
   color: white;
 }
+
+.col-md-custom {
+  flex: 0 0 auto;
+  width: 12.25%;
+}
