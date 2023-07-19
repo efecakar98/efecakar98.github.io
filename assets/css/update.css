@@ -86,7 +86,9 @@ text-decoration: none;}
   color: white;
 }
 
-.col-md-custom {
-  flex: 0 0 auto;
-  width: 12.25%;
+@media (min-width: 768px) {
+ .col-md-custom {
+   flex: 0 0 auto;
+   width: 12.25%;
+ }
 }
