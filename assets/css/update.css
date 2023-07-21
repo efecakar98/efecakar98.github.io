@@ -87,9 +87,23 @@ text-decoration: none;}
 }
 
 @media (min-width: 768px) {
- .col-md-custom {
+ .col-md-custom1 {
    flex: 0 0 auto;
    width: 12.25%;
+ }
+}
+
+@media (min-width: 768px) {
+ .col-md-custom2 {
+   flex: 0 0 auto;
+   width: 10.00%;
+ }
+}
+
+@media (min-width: 768px) {
+ .col-md-custom3 {
+   flex: 0 0 auto;
+   width: 5.00%;
  }
 }
 
