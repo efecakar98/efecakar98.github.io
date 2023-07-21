@@ -92,3 +92,10 @@ text-decoration: none;}
    width: 12.25%;
  }
 }
+
+span.block-custom {
+  display: block;
+  width: 20px;
+  height: 30px;   
+  background-color: #2774AE; 
+}
