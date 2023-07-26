@@ -63,8 +63,9 @@
   text-decoration: none;
 }
 .page-title {
- color: #2774AE;
+ color: #000000;
  padding-top: 20;
+ text-align: center;
 }
 
 .footer-bs ul {
