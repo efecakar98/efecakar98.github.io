@@ -90,7 +90,7 @@ text-decoration: none;}
 @media (min-width: 768px) {
  .col-md-custom1 {
    flex: 0 0 auto;
-   width: 12.25%;
+   width: 12.50%;
  }
 }
 
