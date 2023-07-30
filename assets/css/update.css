@@ -115,6 +115,13 @@ text-decoration: none;}
  }
 }
 
+@media (min-width: 768px) {
+ .col-md-custom5 {
+   flex: 0 0 auto;
+   width: 18.75%;
+ }
+}
+
 span.block-custom {
   display: block;
   width: 20px;
