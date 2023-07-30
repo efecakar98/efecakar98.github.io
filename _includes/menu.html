@@ -1,46 +1,40 @@
 <!-- Navbar -->
 <nav class="py-3 navbar navbar-expand-xl navbar-custom bg-white">
    <div class="container">
-     <a class="navbar-brand" href="index.html"><h1>Petta Group</h1></a>
+      <a class="navbar-brand" href="index.html"><h1>Petta Group</h1></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-       <ul class="navbar-nav ms-auto">
-         <li class="nav-item">
-          <a class="nav-link {% if page.url == '/' %}active{% endif %}" aria-current="page" href="index.html">Home</a>
-         <li class="nav-item dropdown"> 
-             <a class="nav-link dropdown-toggle {% if page.url == '' %}active{% endif %}" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="collasible-nav-dropdown">
-            Research</a>
-           <ul class="dropdown-menu">
-            <li>
-                <a class="text-decoration-none dropdown-item" {% if page.url == '/research1.html' %}active{% endif %}" href="research1.html">Research1</a>
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+               <a class="nav-link {% if page.url == '/' %}active{% endif %}" aria-current="page" href="index.html">Home</a>
             </li>
-            <li>
-                <a class="text-decoration-none dropdown-item" {% if page.url == '/research2.html' %}active{% endif %}" href="research2.html">Research2</a>
+            <li class="nav-item dropdown"> 
+               <a class="nav-link dropdown-toggle {% if page.url == '' %}active{% endif %}" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="collasible-nav-dropdown">Research</a>
+               <ul class="dropdown-menu">
+                  <li><a class="text-decoration-none dropdown-item" {% if page.url == '/research1.html' %}active{% endif %}" href="research1.html">Research1</a></li>
+                  <li><a class="text-decoration-none dropdown-item" {% if page.url == '/research2.html' %}active{% endif %}" href="research2.html">Research2</a></li>
+                  <li><a class="text-decoration-none dropdown-item" {% if page.url == '/research3.html' %}active{% endif %}" href="research3.html">Research3</a></li>
+               </ul>
             </li>
-            <li>
-                <a class="text-decoration-none dropdown-item" {% if page.url == '/research3.html' %}active{% endif %}" href="research3.html">Research3</a>
+            <li class="nav-item">
+               <a class="nav-link {% if page.url == '/publication.html' %}active{% endif %}" href="publication.html">Publications</a>
             </li>
-           </ul>
-         </li>
-         <li class="nav-item">
-              <a class="nav-link {% if page.url == '/publication.html' %}active{% endif %}" href="publication.html">Publications</a>
-         </li>
-         <li class="nav-item">
-              <a class="nav-link {% if page.url == '/people.html' %}active{% endif %}" href="people.html">Group Members</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link {% if page.url == '/news.html' %}active{% endif %}" href="news.html">News</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link {% if page.url == '/opening.html' %}active{% endif %}" href="opening.html">Openings</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link {% if page.url == '/contact.html' %}active{% endif %}" href="contact.html">Contact</a>
-         </li>
-       </ul>
-     </div>
+            <li class="nav-item">
+               <a class="nav-link {% if page.url == '/people.html' %}active{% endif %}" href="people.html">Group Members</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link {% if page.url == '/news.html' %}active{% endif %}" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link {% if page.url == '/opening.html' %}active{% endif %}" href="opening.html">Openings</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link {% if page.url == '/contact.html' %}active{% endif %}" href="contact.html">Contact</a>
+            </li>
+         </ul>
+      </div>
    </div>
 </nav>
 <div class="seperator"></div>
