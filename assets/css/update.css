@@ -128,3 +128,9 @@ span.block-custom {
   height: 32px;   
   background-color: #2774AE; 
 }
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
